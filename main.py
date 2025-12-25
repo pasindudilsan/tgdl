@@ -52,7 +52,7 @@ if os.path.exists("/content/tgdl"):
 
 cmd = "git clone https://github.com/ehraz786/tgdl
 proc = subprocess.run(cmd, shell=True)
-cmd = "apt update && apt install ffmpeg aria2 megatools"
+cmd = "apt update && apt install ffmpeg aria2 megatools unrar"
 proc = subprocess.run(cmd, shell=True)
 cmd = "pip3 install -r /content/tgdl/requirements.txt"
 proc = subprocess.run(cmd, shell=True)
